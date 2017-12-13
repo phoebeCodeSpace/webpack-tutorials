@@ -1,0 +1,28 @@
+{
+  "name": "webpack-tutorials",
+  "version": "1.0.0",
+  "description": "tutorials for webpack",
+  "main": "index.js",
+  "scripts": {
+    "build:1": "webpack --config ./1-base-sample/webpack.config.js",
+    "build:2": "webpack --config ./2-html-webpack-plugin/webpack.config.js",
+    "build:3": "webpack --config ./3-multi-pages/webpack.config.js",
+    "dev:4": "webpack-dev-server --config ./4-dev-server/webpack.config.js",
+    "build:5": "webpack --config ./5-loader/webpack.config.js",
+    "build:6": "webpack --config ./6-extract-style/webpack.config.js",
+    "build:7": "webpack --config ./7-resolve/webpack.config.js",
+    "build:8": "webpack --config ./8-uglify/webpack.config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "silkshadow",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "postcss-loader": "^2.0.9",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.1.2"
+  }
+}
